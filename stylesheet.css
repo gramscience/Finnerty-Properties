@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(34, 49, 52, 0.7);
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    max-height: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    float: left;
+    padding: 0 25px;
+    line-height: 130px;
+    display: block;
+    transition: all 0.25s;
+    color: white;
+}
+
+.header-right a:active {
+    opacity: none;
+    color: salmon;
+
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.top-wrapper {
+    padding: 360px 0 200px 0;
+    background-image: url(https://img1.wsimg.com/isteam/ip/94b00f06-31d1-4eda-b2f2-3b48d68cba2c/Z3Riverside_Aerial.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper h2 {
+    opacity: 0.7;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: salmon;
+    border-radius: 4px;
+    text-align: center;
+    opacity: 0.8;
+    display: inline-block;
+    box-shadow: 0 7px rgba(10, 24, 63, 0.7)
+}
+
+.btn:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+    opacity: 1;
+    color: white;
+}
+
+.listings {
+    background-color: rgba(35, 67, 247, 0.8)
+}
+
+.product-wrapper {
+    padding-bottom: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsandyonsiesta.files.wordpress.com%2F2013%2F01%2Fsiestakeybeach.jpg&f=1&nofb=1);
+    background-size: cover;
+    text-align: center;
+}
+
+.product-wrapper h2 {
+    color: salmon;
+}
+
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.product {
+    float: left;
+    width: 33%;
+    padding-right: 10px;
+}
+
+.product img {
+    border-radius: 50%;
+}
+
+.product-icon {
+    position: relative;
+}
+
+.product-icon p {
+    position: absolute;
+    top: 24%;
+    color: white;
+    width: 100%;
+}
+
+.product-txt {
+    width: 80%;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(95, 44, 20);
+
+}
+
+footer {
+    background-color: rgb(55, 106, 201);
+    color: white;
+}
+
+.footer-wrapper {
+    padding: 60px 5px 125px 5px;
+}
+
+.footer-logo {
+    background-color: rgb(209, 82, 44); 
+    color: white;
+
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.footer-right a {
+    float: left;
+    padding: 0 25px;
+    line-height: 75px;
+    display: block;
+    transition: all 0.25s;
+    color: rgb(209, 82, 44);  
+    font-weight: bolder;
+}
+
+.footer-right a:hover {
+    background-color: rgb(30, 33, 189);
+}
